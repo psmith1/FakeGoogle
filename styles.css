@@ -1,0 +1,121 @@
+header{
+	color:#000;
+	margin-left: 20px;
+	margin-right: 20px;
+	overflow:auto;
+}
+ul li {
+	position:relative;
+}
+
+.navbar .navleft {
+	float: left;
+	margin-top:26px;
+}
+
+.navbar .navright {
+	float: right;
+	margin-bottom: 30px;
+}
+
+.apps {
+	margin-bottom: 10px;
+}
+
+li{
+	display:inline-block;
+	margin: 12px;
+	font-size: 13px;
+	font-family: Arial;
+	position: relative;
+}
+
+li:hover {
+	text-decoration:underline;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1;
+}
+
+body .logo {
+	text-align: center;
+	margin-top: 12px;
+	padding-top: 110px;
+}
+
+body .search {
+	text-align: center;
+    border-radius: 10px;
+}
+
+body .search {
+	display:block;
+	margin: 0 auto;
+	width: 500px;
+	height: 41px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	border-width:1px;
+	box-shadow: 0px 3px 2px gainsboro;
+	margin-top: 10px;
+	font-size: 18px;
+	outline: none;
+}
+
+button {
+     width: 125px;
+     height: 38px;
+     border: none;
+     color: grey;
+     font-family: Arial;
+     font-weight: bold;
+     background-color: #F0F0F0;
+}
+
+button:hover {
+	outline:1px solid grey;
+	color: black;
+}
+
+
+.buttons {
+text-align: center;
+margin: 30px;
+overflow: visible;
+}
+
+p {
+	display:inline-block;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.offered {
+	text-align: center;
+}
+
+.french{
+	color:navy;
+}
+
+.totalfooter {
+	background-color: #F0F0F0;
+	font-size: 20px;
+}
+
+.footleft {
+	display:inline-block;
+	margin-left: 15px;
+
+}
+
+.footright {
+	float:right;
+}
